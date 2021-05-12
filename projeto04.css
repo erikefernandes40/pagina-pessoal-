@@ -1,0 +1,427 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'montserrat';
+}
+
+.center{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.clear{
+    clear: both;
+}
+
+html,body{
+    height: 100%;
+}
+
+header{
+    padding: 20px 2%;
+}
+
+header .logo img{
+    width: 236px;
+    float: left;
+}
+
+nav.menu-mobile{
+    display: none;
+    float: right;
+    width: 28px;
+    height: 28px;
+    margin-top: 7px;
+    background-size: 100% 100%;
+    cursor: pointer;
+    background-image: url("/home/erick/Área de Trabalho/portifolios/projeto 04/imagens/menu-mobile.png");
+}
+
+nav.menu-mobile ul{
+    z-index: 999;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 70px;
+    background-color: white;
+    list-style-type: none;
+}
+
+nav.menu-mobile li{
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+
+header nav.menu-desktop{
+    float: right;
+}
+
+header nav.menu-desktop ul{
+    list-style-type: none;
+}
+
+header nav.menu-desktop ul li{
+    float: left;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.mosaico-single{
+    float: left;
+    width: calc(100% / 6);
+}
+
+.img-mosaico-single{
+    width: 100%;
+    padding: 50%;
+    background-color: burlywood;
+    border: 5px solid white;
+}
+
+section.servicos > .center{
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    position:relative;
+    top: -30px;
+    text-align: center;
+}
+
+.box-servicos{
+    color: white;
+    background-image: url("/home/erick/Área de Trabalho/portifolios/projeto 04/imagens/icone_dente.png");
+    background-size: 19px 21px;
+    background-position: center calc(100% - 5px);
+    background-repeat: no-repeat;
+}
+
+.box-servicos p{
+    margin-top: 8px;
+}
+
+.box-servicos:nth-of-type(1){
+    width: 30%;
+    padding: 25px 2%;
+    background-color: #576975;
+}
+
+.box-servicos:nth-of-type(2){
+    width: 40%;
+    padding: 55px 2%;
+    background-color:#688293;
+    background-image: none;
+}
+
+.box-servicos:nth-of-type(3){
+    width: 30%;
+    padding: 25px 2%;
+    background-color: #576975;
+}
+
+section.perfil-container .center{
+    max-width: 800px;
+}
+
+.perfil-wraper{
+    padding-top: 60%;
+    position: relative;
+}
+
+.perfil-wraper-2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.img-perfil{
+    width: 40%;
+    height: 100%;
+    background-image: url("/home/erick/Área de Trabalho/portifolios/projeto 04/imagens/img_perfil.png");
+    background-size: 100% 100%;
+}
+
+.texto-perfil{
+    width: 60%;
+    text-align: justify;
+    margin-left: 20px;
+}
+
+.texto-perfil p{
+    margin-top: 10px;
+}
+
+section.videos{
+    padding: 50px 0;
+}
+
+.box-video{
+    float:left;
+    width: 33.3%;
+    padding-top: calc(100% * 0.25);
+    position: relative;
+    border: 5px solid white;
+}
+
+section.videos iframe{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+section.tratamentos .center{
+    padding: 50px 0;
+}
+
+section.tratamentos .tratamentos-container{
+    float: left;
+    width: 33.3%;
+    background-color: rgba(240, 240, 240,1.0);
+}
+
+section.tratamentos h2{
+    text-align: center;
+}
+
+.tratamentos-single{
+    padding: 20px;
+}
+
+.tratamentos-single h2{
+    font-size: 18px;
+}
+
+.tratamentos-single p{
+    font-size: 13px;
+    color: rgb(100, 100, 100);
+}
+
+section.depoimentos h2{
+    text-align: center;
+}
+
+section.depoimentos .center{
+    padding: 50px 0;
+    max-width: 400px;
+}
+
+.depoimentos-single{
+    text-align: center;
+    width: 100%;
+    padding: 0 2%;
+}
+
+.depoimentos-single quote{
+    color: rgb(120, 120, 120);
+}
+
+.nome-depoimentos img{
+    margin: 15px;
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+}
+
+.nome-depoimentos span{
+    position: relative;
+    top: 4px;
+    padding: 15px 0;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.chamada-instagram{
+    width: 100%;
+    float: left;
+    text-align: center;
+    background-color: rgb(220, 220, 220);
+    padding: 40px 0;
+}
+
+.instagram-mosaico{
+    float: left;
+    width: calc(100% / 9);
+    padding: calc(45% / 9);
+    background-color: royalblue;
+    border: 5px solid white;
+    
+}
+
+.chamada-facebook{
+    width: 100%;
+    float: left;
+    text-align: center;
+    background-color: rgb(140, 140, 140);
+    padding: 40px 0;
+}
+
+section.contato{
+    padding: 60px 2%;
+}
+
+section.contato h2{
+    text-align: center;
+}
+
+section.contato form{
+    width: 100%;
+    max-width: 500px;
+    margin: 30px auto;
+}
+
+.form-wraper{
+    float: left;
+    padding: 0 10px;
+    margin-top: 10px;
+}
+
+.w100{
+    width: 100%;
+}
+
+.w50{
+    width: 50%;
+}
+
+.form-wraper input[type=text]{
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 8px;
+    border: 1px solid #dadada;
+    margin-top: 8px;
+}
+
+.form-wraper textarea{
+    width: 100%;
+    height: 121px;
+    margin-top: 8px;
+    padding: 9px;
+    resize: none;
+    border: 1px solid #dadada;
+}
+
+.form-wraper input[type=submit]{
+    width: 100px;
+    height: 35px;
+    display: inline-block;
+    background-color: rgb(120, 120, 120);
+    color: white;
+    cursor: pointer;
+    border: 0;
+}
+
+footer{
+    padding: 40px 2%;
+    text-align: center;
+    background-color: rgb(180, 180, 180);
+}
+
+.footer-block{
+    width: 33.3%;
+    float: left;
+}
+
+.footer-block p{
+    padding-top: 5px;
+}
+
+
+@media screen and (max-width: 1024px){
+   .mosaico-social :nth-of-type(1n+7){
+       display: none;
+   }
+   
+    .instagram-mosaico{
+        width: calc(100% / 6);
+        padding: calc(37% / 6);
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    nav.menu-mobile{
+        display: none;
+    }
+
+    nav.menu-desktop{
+        display:none
+    }
+
+    section.servicos .center{
+        flex-direction: column;
+    }
+
+    .box-servicos:nth-of-type(1){
+        width: 90%;
+        max-width: 350px;
+    }
+
+    .box-servicos:nth-of-type(2){
+        width: 94%;
+        max-width: 380px;
+    }
+
+    .box-servicos:nth-of-type(3){
+        width: 90%;
+        max-width: 350px;
+    }
+
+    section.perfil-container .perfil-wraper-2{
+        display: inline-block;
+        text-align: center;
+        position: static;
+    }
+
+    .img-perfil{
+        display:inline-block;
+        width: 70%;
+        padding-top: 80% ;
+        height: auto;
+    }
+
+    .texto-perfil{
+        display: inline-block;
+        width: 80%;
+        padding: 0 30px;
+    }
+
+    section.videos{
+        text-align: center;
+    }
+
+    .box-video{
+        float:none;
+        display: inline-block;
+        width: 70%;
+        padding-top: calc(70% * 0.5);
+    }
+
+    footer{
+        text-align: center;
+    }
+    
+    .footer-block{
+        width: 100%;
+        float: none;
+        margin: 30px 0;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .mosaico-social :nth-of-type(1n+4){
+        display: none;
+    }
+    
+     .instagram-mosaico{
+         width: calc(100% / 3);
+         padding: calc(40% / 3);
+     }
+}
